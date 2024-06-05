@@ -35,7 +35,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 720px;
+    height: 710px;
     grid-template-areas: 
     "doi about camping"
     "npo contact caseStudy";
@@ -44,7 +44,8 @@
 #about{
     grid-area: about;
     padding: 5px;
-    border:1px solid #000000;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
 }
 
 #aboutMe{
@@ -61,12 +62,13 @@
     grid-area: contact;
     padding: 5px;
     align-content: end;
-    justify-self: center;
-    border:1px solid #000000;
+    text-align: center;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
 }
 
 .footer-item{
     color:black;
-    padding: 10px;
+    margin-right: 30px;
     text-decoration: underline;
 }
